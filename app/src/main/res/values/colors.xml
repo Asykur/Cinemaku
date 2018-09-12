@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212028</color>
+    <color name="colorPrimaryDark">#171a1f</color>
+    <color name="colorAccent">#5495ff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey_a5a5">#a5a5a5</color>
+    <color name="grey_tab">#41404c</color>
+    <color name="dark_navy">#33444f</color>
+    <color name="dark_navy_trans">#5033444f</color>
+    <color name="dark_navy_trans2">#80212028</color>
+    <color name="blue">#5495ff</color>
+</resources>

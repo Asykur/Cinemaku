@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name"><b>Cinemaku</b></string>
+    <string name="created_by">Dibuat Oleh <b>Asykur Khamid</b></string>
+    <string name="setting">Pengaturan</string>
+    <string name="about">Tentang App</string>
+    <string name="about_apps">This application was made to qualify for completing the Dicoding MADE scholarship program</string>
+    <string name="best_movies">Popular Movies</string>
+    <string name="this_year">This Year</string>
+    <string name="nope_ku">+6285640490025</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="release">Release :</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="created_by_asykur_khamid">Dibuat Oleh Asykur Khamid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Sedang Diputar</string>
+    <string name="up_coming">Mendatang</string>
+    <string name="strings_id">id</string>
+    <string name="contact_me">Hubungi Saya</string>
+    <string name="language">Bahasa</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="search">Cari</string>
+    <string name="tap_again">Tap lagi untuk keluar!..</string>
+    <string name="favorite">Favorit</string>
+
+</resources>

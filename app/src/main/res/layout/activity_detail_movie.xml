@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_all"
+    android:background="@color/dark_navy"
+    tools:context=".Activity.DetailMovieActivity">
+
+    <include
+        android:id="@+id/tbDetailPage"
+        layout="@layout/view_toobar" />
+
+    <ScrollView
+        android:id="@+id/scPage"
+        style="@style/match_all"
+        android:elevation="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            style="@style/match_all"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="0dp"
+                android:background="@drawable/gradient">
+
+                <ImageView
+                    android:id="@+id/imgDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="480dp"
+                    android:scaleType="center" />
+
+                <View
+                    style="@style/match_all"
+                    android:background="@drawable/gradient" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="430dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="18dp"
+                        android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTitleDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="@string/movie_title"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                style="@style/wrap_all"
+                                android:textColor="@color/white"
+                                android:textSize="14dp"
+                                android:text="@string/release"/>
+                            <TextView
+                                style="@style/wrap_all"
+                                android:textColor="@color/colorAccent"
+                                android:id="@+id/tvReleaseDetail"
+                                android:textSize="14dp"
+                                android:layout_marginLeft="3dp"
+                                tools:text="Genre"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <com.sackcentury.shinebuttonlib.ShineButton
+                        android:id="@+id/btnLike"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="@dimen/size_16dp"
+                        android:layout_marginLeft="@dimen/size_16dp"
+                        android:src="@android:color/darker_gray"
+                        app:allow_random_color="false"
+                        app:big_shine_color="#FFD700"
+                        app:btn_color="@android:color/darker_gray"
+                        app:btn_fill_color="#FFD700"
+                        app:click_animation_duration="200"
+                        app:enable_flashing="false"
+                        app:shine_animation_duration="1500"
+                        app:shine_count="8"
+                        app:shine_distance_multiple="1.5"
+                        app:shine_turn_angle="10"
+                        app:siShape="@raw/heart"
+                        app:small_shine_color="#CC9999"
+                        app:small_shine_offset_angle="20" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <!--<TextView-->
+                    <!--style="@style/wrap_all"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:text="Cast"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textColor="@color/blue" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/wrap_all"-->
+                    <!--android:text="cast list"-->
+                    <!--android:id="@+id/tvCast"-->
+                    <!--android:layout_marginLeft="@dimen/dim_10dp"-->
+                    <!--android:textColor="@color/white"/>-->
+
+                <TextView
+                    style="@style/wrap_all"
+                    android:textSize="16dp"
+                    android:text="@string/synopsis"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dim_10dp"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    style="@style/wrap_all"
+                    android:id="@+id/tvSynopsis"
+                    android:textColor="@color/white"
+                    tools:text="synopsis bla bla"
+                    android:textSize="13dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="@dimen/dim_10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

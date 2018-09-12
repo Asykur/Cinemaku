@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tbParent"
+    android:layout_width="match_parent"
+    android:elevation="3dp"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitleToolbar"
+            style="@style/wrap_all"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imgBack"
+            tools:text="Cinemaku"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/imgBack"
+            style="@style/wrap_all"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back_button"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:src="@mipmap/ic_search"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_height="40dp"
+            android:layout_width="40dp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

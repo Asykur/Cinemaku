@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_all"
+    tools:context=".Activity.AboutActivity">
+
+    <include
+        android:id="@+id/tbAbout"
+        layout="@layout/view_toobar" />
+
+    <LinearLayout
+        style="@style/wrap_all"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_film" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:text="Cinemaku v.1.0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp" />
+
+        <TextView
+            style="@style/wrap_all"
+            android:text="@string/about_apps"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:textColor="@color/dark_navy" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/created_by_asykur_khamid"
+        android:textSize="@dimen/dim_10dp"
+        android:textStyle="bold" />
+</RelativeLayout>

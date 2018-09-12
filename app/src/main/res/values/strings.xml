@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"><b>Cinemaku</b></string>
+    <string name="created_by">Created by <b>Asykur Khamid</b></string>
+    <string name="setting">Settings</string>
+    <string name="about">About App</string>
+    <string name="about_apps">This application was made to qualify for completing the Dicoding MADE scholarship program</string>
+    <string name="best_movies">Popular Movies</string>
+    <string name="this_year">This Year</string>
+    <string name="nope_ku">+6285640490025</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="release">Release :</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="created_by_asykur_khamid">Created by Asykur Khamid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="up_coming">Up Coming</string>
+    <string name="strings_id">id</string>
+    <string name="contact_me">Contact me</string>
+    <string name="language">Language</string>
+    <string name="change_language">Change Language</string>
+    <string name="search">Search</string>
+    <string name="tap_again">Tap again to exit!..</string>
+    <string name="favorite">Favorite</string>
+</resources>
